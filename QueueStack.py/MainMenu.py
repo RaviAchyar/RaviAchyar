@@ -1,5 +1,5 @@
-from funtionstack import MenuStack
-from MainQueue import MenuQueue
+from funtionstack import Stack
+from MainQueue import Queue
 
 def MainMenu():
     while True:
@@ -11,9 +11,9 @@ def MainMenu():
         pilihan = input("Masukkan pilihan: ")
 
         if pilihan == "1":
-            MenuStack()
+            Stack()
         elif pilihan == "2":
-            MenuQueue()
+            Queue()
         elif pilihan == "3":
             print("Terima kasih telah menggunakan aplikasi!")
             break
